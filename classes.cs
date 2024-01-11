@@ -93,8 +93,7 @@ namespace boardClass
 {
     class Board
     {
-        private Piece[,] boardState;
-        private Piece rook1;
+        private Piece?[,] boardState = {}; // Declare boardState as nullable
         private PieceType[,] defaultBoard = {{PieceType.Rook,PieceType.Knight,PieceType.Bishop,PieceType.King,PieceType.Queen,PieceType.Bishop,PieceType.Knight,PieceType.Rook},
                                                 {PieceType.Pawn,PieceType.Pawn,PieceType.Pawn,PieceType.Pawn,PieceType.Pawn,PieceType.Pawn,PieceType.Pawn,PieceType.Pawn},
                                                 {PieceType.Null,PieceType.Null,PieceType.Null,PieceType.Null,PieceType.Null,PieceType.Null,PieceType.Null,PieceType.Null},
@@ -128,10 +127,11 @@ namespace boardClass
                         case PieceType.Queen:
                             Console.WriteLine("QUEEN");
                             break;
-                        default:
+                        case PieceType.Null:
                             Console.WriteLine("NO PIECE");
                             break;
-                            
+                        default:
+                            throw new Exception("Exception - The piece defined in the defaultBoard is not the same as the enum established at the top of classes.cs");
                         }
                     }
             }
