@@ -1,0 +1,15 @@
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.csproj.AssemblyReference.cache
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.AssemblyInfoInputs.cache
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.AssemblyInfo.cs
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.csproj.CoreCompileInputs.cache
+/home/oliver/Documents/VSC/chessProject/bin/Debug/net6.0/chessProject
+/home/oliver/Documents/VSC/chessProject/bin/Debug/net6.0/chessProject.deps.json
+/home/oliver/Documents/VSC/chessProject/bin/Debug/net6.0/chessProject.runtimeconfig.json
+/home/oliver/Documents/VSC/chessProject/bin/Debug/net6.0/chessProject.dll
+/home/oliver/Documents/VSC/chessProject/bin/Debug/net6.0/chessProject.pdb
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.dll
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/refint/chessProject.dll
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.pdb
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/chessProject.genruntimeconfig.cache
+/home/oliver/Documents/VSC/chessProject/obj/Debug/net6.0/ref/chessProject.dll

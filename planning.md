@@ -6,8 +6,6 @@ This program will consist of 2 parts, a very simple UI, and a chess engine. The 
 
 ## Requirements
 
-## Requirements
-
 1. **User Interface (UI):**
     - The UI should be simple and intuitive.
     - The UI should display a formatted array representing the chess board.
@@ -40,7 +38,7 @@ This program will consist of 2 parts, a very simple UI, and a chess engine. The 
 
 ## Class Diagram
 
-![Class diagram for the pieces on the board. Standard pieces can use the main class, special pieces can use their particukar classes](assets/pieceClassDiagram.png)
+![Class diagram for the pieces on the board. Standard pieces can use the main class, special pieces can use their particular classes](assets/pieceClassDiagram.png)
 
 ## Sequence Diagrams
 
@@ -56,20 +54,8 @@ Explain the data model of the program, including the entities and their relation
 
 ## Algorithms
 
-Document any algorithms or important logic used in the program.
+The algorithms used by the engine will be decided after the UI and game functions have been implemented
 
 ## Testing
 
 Outline the testing strategy for the program, including unit tests, integration tests, and any other relevant testing approaches.
-
-## Deployment
-
-Explain how the program will be deployed and any dependencies or requirements for deployment.
-
-## Future Enhancements
-
-List any potential future enhancements or features that could be added to the program.
-
-## References
-
-Include any references or resources used in designing the program.
