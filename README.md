@@ -4,8 +4,9 @@ This is a simple chess engine implemented in C#.
 
 ## Features
 
-- Supports basic chess pieces like Pawn and King.
-- Allows checking if a piece has been taken and its color.
+- Basic command line UI (TO COME)
+- Simple Chess engine (TO COME)
+- Legal move checker (TO COME)
 
 ## Installation
 
