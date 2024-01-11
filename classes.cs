@@ -10,18 +10,15 @@ namespace pieceClasses{
     };
 
     class Piece {
-        public bool isWhite;
-        public bool isTaken;
-        public PieceType type;
+        private bool isWhite;
+        private bool isTaken;
+        private PieceType type;
 
-        public static Piece CreatePiece(PieceType type, bool isWhite){
-            Piece piece = new Piece();
-            piece.isWhite = isWhite;
-            piece.isTaken = false;
-            piece.type = type;
-            return piece;
+        public Piece(PieceType type, bool isWhite){
+            this.isWhite = isWhite;
+            this.isTaken = false;
+            this.type = type;
         }
-
         public bool IsWhite(){
             return isWhite;
         }
@@ -41,16 +38,10 @@ namespace pieceClasses{
 
     class KingRook : Piece { // Both king and rook have normal moves besides castling
 
-        public bool canCastle;
-        public static KingRook createKingRook(bool isWhite, PieceType pieceType){
+        private bool canCastle;
+        public KingRook(PieceType pieceType, bool isWhite):base(pieceType, isWhite){
 
-            KingRook kingRook = new KingRook();
-            kingRook.isWhite = isWhite;
-            kingRook.isTaken = false;
-            kingRook.type = pieceType;
-            kingRook.canCastle = true;    
-
-            return kingRook;
+            this.canCastle = true;    
         }
 
         public bool CanCastle(){
@@ -64,14 +55,8 @@ namespace pieceClasses{
 
     class Pawn : Piece { // TODO: Add En Passant
         public bool hasMoved;
-        public static Pawn createPawn(bool isWhite){
-            Pawn pawn = new Pawn();
-            pawn.isWhite = isWhite;
-            pawn.isTaken = false;
-            pawn.type = PieceType.Pawn;
-            pawn.hasMoved = false;
-
-            return pawn;
+        public Pawn(PieceType pieceType, bool isWhite):base(pieceType, isWhite){
+            this.hasMoved = false;
         }
 
         public bool HasMoved(){
