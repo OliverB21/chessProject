@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ApaciGbHHU+yEQpxxD7/1kSVWWJnYxN0qrpjnM/hw/fEle2HyJzBgkCfg7/UaObe++jLj4c7U6vszS90Mi0YLQ==",
+  "success": true,
+  "projectFilePath": "/home/oliver/Documents/VSC/chessProject/chessProject.csproj",
+  "expectedPackageFiles": [
+    "/home/oliver/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oliver/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oliver/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
